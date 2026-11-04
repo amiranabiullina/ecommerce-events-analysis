@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+# сырые данные большие — в репозиторий не кладём, в README есть ссылки на источники
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.duckdb
+data/processed/*.parquet
+.vscode/
